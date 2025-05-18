@@ -16,7 +16,7 @@ Projeyi canlı olarak incelemek için:
 
 - HTML
 - CSS
-- (Gelecekte JavaScript ve backend entegrasyonu planlanabilir)
+- JavaScript
 
 ## 🎯 Amaç
 
