@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>W1nRR</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--! HEADER SECTION START-->
+    <header class="header"> 
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="Logo" />
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active" >Home</a>
+            <a href="#about" >About</a>
+            <a href="#" >News</a>
+            <a href="#products" >Products</a>
+            <a href="#contact" >Contact</a>
+
+        </nav>   
+        <div class="buttons">
+            <button class="headerbtn", id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="menu-btn" class="headerbtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a class="btn" href="login.html">Login</a>
+        </div>
+
+        <div class="search-form">
+            <input type="text" 
+            class="search-input" 
+            id="search-box" 
+            placeholder="search-here">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+    <!--! HEADER SECTION END-->
+
+    <!--! HOME SECTION START-->
+    <section class="home">
+        <div class="content" id="home">
+            <h3 class="author"> W1nDEV </h3>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <h3> Biz Kimiz? </h3>
+                        <p>Biz Minecraft'ta sunucu geliştirme, plugin geliştirme, itemsadder eklentileri geliştirme alanında tecrübeli geliştiricileriz. Bildiklerimizi aktarmak için videolar çekiyoruz.</p>
+                        <a href="#" class="btn">Hakkımızda</a>
+                    </div>
+                    <div class="slide">
+                        <h3> Ne kadar tecrübeliyiz? </h3>
+                        <p>Biz Minecraft'ta sunucu geliştirme, plugin geliştirme, itemsadder eklentileri geliştirme alanında tecrübeli geliştiricileriz. Bildiklerimizi aktarmak için videolar çekiyoruz.</p>
+                        <a href="#" class="btn">Hakkımızda</a>
+                    </div>
+                    <div class="slide">
+                        <h3> Neler satıyoruz? </h3>
+                        <p>Biz yaptığımız itemsadder eklentilerini istediğiniz gibi ayarlayarak size hazır olarak config ve resourcepack olarak satıyoruz. Ayrıca hazır paketleri de sizlere ücretsiz olarak veriyoruz.</p>
+                        <a href="#" class="btn">Hakkımızda</a>
+                    </div>
+                    <!-- Dilediğiniz kadar slide ekleyebilirsiniz -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--! HOME SECTION END-->
+
+    <!--! ABOUT SECTION START-->
+    <section class="about">
+        <h1 class="heading"><span>Hakkımızda</span></h1>
+        <div class="container" id="about">
+            <div class="leftsection">
+                <div class="reason">
+                    <div class="text">
+                        <h4>Hazır ve kolay</h4>
+                        <p>Yaptığımız ürünleri kolayca kendi isteğinize göre değiştirebilirsiniz.</p>
+                    </div>
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                </div>
+                <div class="reason">
+                    <div class="text">
+                        <h4>Kolayca değiştirilebilir</h4>
+                        <p>Yaptığımız ürünler, sizlerin anlayabilmesi için en basit, hazır ve kolay halde üretilir.</p>
+                    </div>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <div class="reason">
+                    <div class="text">
+                        <h4>Tasarım olarak güzel</h4>
+                        <p>Ürünlerimiz, tasarım olarak olabilecek en iyi halde tasarlanır.</p>
+                    </div>
+                    <i class="fa-solid fa-palette"></i>
+                </div>
+            </div>
+            <div class="imagesection">
+                <img src="images/afis.png" alt="About">
+            </div>
+            <div class="rightsection">
+                <div class="reason">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <div class="text">
+                        <h4>Destek</h4>
+                        <p>Hazır paketleri veya yaptığımız ürünleri kullanırken bir hatayla karşılaştığınızda hatayı çözmeniz için elimizden geleni yaparız.</p>
+                    </div>
+                </div>
+                <div class="reason">
+                    <i class="fa-solid fa-rocket"></i>
+                    <div class="text">
+                        <h4>Kalite</h4>
+                        <p>Ürünlerimiz olası en iyi kalite ve performansda yapılmaktadır.</p>
+                    </div>
+                </div>
+                <div class="reason">
+                    <i class="fa-solid fa-comments"></i>
+                    <div class="text">
+                        <h4>Topluluk</h4>
+                        <p>Ayrıca topluluğumuzda sohbet edebilir, işi bilen kişilerden destek alabilirsiniz!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! ABOUT SECTION END-->
+
+    <!--! MEMBERS SECTION START-->
+    <section class="members">
+        <h1 class="heading">W1nDEV <span>Üyeleri</span></h1>
+        <div class="box-container" id="members">
+            <div class="box">
+                <img src="images/W1nRR.jpg"/>
+                <div class="memberinfo">
+                    <a>W1nRR</a>
+                    <h6>Kurucu</h6>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/LegendsJS.jpg"/>
+                <div class="memberinfo">
+                    <a>LegendsJS</a>
+                    <h6>Asistan</h6>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/W1nRR.jpg"/>
+                <div class="memberinfo">
+                    <a>W1nRR</a>
+                    <h6>Kurucu</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! MEMBERS SECTION END-->
+
+    <!--! MENU SECTION START-->
+    <section class="menu">
+        <h1 class="heading">ItemsAdder <span>Eklentileri</span></h1>
+        <div class="box-container" id="products">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/betterranks.png" alt="BetterRanks" id="InspectPhoto1"/>
+                    <div class="popup" id="popup">
+                        <span class="kapat" id="kapat">&times;</span>
+                        <img src="images/betterranks.png" alt="Resim" class="popup-icerik" id="popup-icerik">
+                    </div>
+                    <span class="menu-category">ITEMSADDER EKLENTILERI</span>
+                    <h3>BetterRanks Eklentileri</h3>
+                    <i class="fas fa-turkish-lira"></i>
+                    <div class="price"> Fiyatlar İçin Göz At</div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Göz At</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/customesc.png" alt="Menu" id="InspectPhoto2"/>
+                    <span class="menu-category">ITEMSADDER EKLENTILERI</span>
+                    <h3>Custom ESC Eklentileri</h3>
+                    <i class="fas fa-turkish-lira"></i>
+                    <div class="price"> Fiyatlar İçin Göz At</div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-3.png" alt="Menu"/>
+                    <span class="menu-category">PIZZA</span>
+                    <h3>6 Mini Pizzas</h3>
+                    <i class="fas fa-turkish-lira"></i>
+                    <div class="price">0.01€ <span>104.99€</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-4.png" alt="Menu"/>
+                    <span class="menu-category">PIZZA</span>
+                    <h3>6 Mini Pizzas</h3>
+                    <i class="fas fa-turkish-lira"></i>
+                    <div class="price">0.01€ <span>104.99€</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    <!--! MENU SECTION END-->
+
+    <!--! FOOTER SECTION START-->
+    <section class="footer">
+        <div class="search">
+            <input type="text"
+            class="search-input"
+            placeholder="Search">
+            <button class="btn btn-primary">Search</button>
+        </div>
+        <h3>İletişim</h3>
+        <div class="share" id="contact">
+            <a href="https://discord.gg/aEJU38Zfqr" target="_blank" class="fab fa-discord"></a>
+            <a href="https://twitter.com/W1nRR" target="_blank" class="fab fa-twitter"></a>
+            <a href="https://www.youtube.com/channel/UCvz4bLHzhh6cuRZFAtiX2sA" target="_blank" class="fab fa-youtube"></a>
+            <a href="https://tr.pinterest.com/w1nrr/" target="_blank" class="fab fa-pinterest"></a>
+        </div>
+        <a target="_blank" class="fas fa-envelope"> <span>exlstudioss@gmail.com</span></a>
+        <div class="links">
+            <a href="#" class="active" >Home</a>
+            <a href="#" >About</a>
+            <a href="#" >News</a>
+            <a href="#" >Products</a>
+            <a href="#" >Review</a>
+            <a href="#" >Contact</a>
+        </div>
+        <div class="credit">
+            created by <a href="https://github.com/W1nRR" target="_blank">W1nRR</a> | all rights reserved
+        </div>
+    </section>
+    <!--! FOOTER SECTION END-->
+
+    <script src="scripts/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
